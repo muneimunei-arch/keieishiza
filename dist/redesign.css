@@ -129,11 +129,15 @@ nav a {
 .hero-art {
   height: auto;
   min-height: 690px;
-  background: var(--navy);
+  background:
+    linear-gradient(90deg, #08152f1f 0%, #08152f73 58%, #08152fb8 100%),
+    linear-gradient(0deg, #08152fb8 0%, transparent 42%),
+    url("assets/keiei-dialogue-hero.jpg") center / cover no-repeat;
   overflow: hidden;
 }
 
 .art-lines {
+  opacity: .58;
   background:
     linear-gradient(90deg, transparent 49.8%, #ffffff16 50%, transparent 50.2%),
     linear-gradient(transparent 49.8%, #ffffff16 50%, transparent 50.2%),
@@ -146,13 +150,14 @@ nav a {
   height: 130px;
   transform: none;
   border: 1px solid #ffffff2c;
-  background: #101f40;
+  background: #101f40d9;
+  backdrop-filter: blur(7px);
   box-shadow: 24px 24px 0 #020b1f4f;
 }
 
 .step-one { left: 9%; bottom: 100px; }
-.step-two { left: 19%; bottom: 225px; background: #182b51; }
-.step-three { left: 29%; bottom: 350px; background: var(--red); }
+.step-two { left: 19%; bottom: 225px; background: #182b51df; }
+.step-three { left: 29%; bottom: 350px; background: #c40035e8; }
 .step span { color: #fff9; }
 .step strong { color: #fff; }
 .art-label { color: #fff9; }
