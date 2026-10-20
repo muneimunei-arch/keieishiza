@@ -130,14 +130,14 @@ nav a {
   height: auto;
   min-height: 690px;
   background:
-    linear-gradient(90deg, #08152f1f 0%, #08152f73 58%, #08152fb8 100%),
-    linear-gradient(0deg, #08152fb8 0%, transparent 42%),
+    linear-gradient(0deg, #08152fc7 0%, #08152f4d 25%, transparent 62%),
+    linear-gradient(90deg, #08152f14 0%, transparent 68%, #08152f38 100%),
     url("assets/keiei-dialogue-hero.jpg") center / cover no-repeat;
   overflow: hidden;
 }
 
 .art-lines {
-  opacity: .58;
+  opacity: .18;
   background:
     linear-gradient(90deg, transparent 49.8%, #ffffff16 50%, transparent 50.2%),
     linear-gradient(transparent 49.8%, #ffffff16 50%, transparent 50.2%),
@@ -146,6 +146,7 @@ nav a {
 }
 
 .step {
+  display: none;
   width: 70%;
   height: 130px;
   transform: none;
